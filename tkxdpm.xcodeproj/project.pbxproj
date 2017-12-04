@@ -12,6 +12,23 @@
 		CCC0623F1FD4F45B0074F6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */; };
 		CCC062411FD4F45B0074F6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC062401FD4F45B0074F6A6 /* Assets.xcassets */; };
 		CCC062441FD4F45B0074F6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC062421FD4F45B0074F6A6 /* LaunchScreen.storyboard */; };
+		CCC0624E1FD4F6CA0074F6A6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */; };
+		CCC0624F1FD4F6CA0074F6A6 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */; };
+		CCC062621FD51D990074F6A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062611FD51D990074F6A6 /* User.swift */; };
+		CCC062641FD51DB80074F6A6 /* Librarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062631FD51DB80074F6A6 /* Librarian.swift */; };
+		CCC062661FD51DC70074F6A6 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062651FD51DC70074F6A6 /* Admin.swift */; };
+		CCC062681FD51E6C0074F6A6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062671FD51E6C0074F6A6 /* Customer.swift */; };
+		CCC0626A1FD51EC80074F6A6 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062691FD51EC80074F6A6 /* Guest.swift */; };
+		CCC0626C1FD51FF60074F6A6 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0626B1FD51FF60074F6A6 /* Account.swift */; };
+		CCC0626E1FD520DF0074F6A6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0626D1FD520DF0074F6A6 /* Book.swift */; };
+		CCC062701FD522550074F6A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0626F1FD522550074F6A6 /* Card.swift */; };
+		CCC062721FD523170074F6A6 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062711FD523170074F6A6 /* AppModel.swift */; };
+		CCC062741FD528C70074F6A6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062731FD528C70074F6A6 /* LoginPresenter.swift */; };
+		CCC0627B1FD52F3F0074F6A6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062791FD52F3F0074F6A6 /* UserCell.swift */; };
+		CCC0627C1FD52F3F0074F6A6 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */; };
+		CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */; };
+		CCC062801FD52F6C0074F6A6 /* UserManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */; };
+		CCC062821FD531170074F6A6 /* UserManagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,23 @@
 		CCC062401FD4F45B0074F6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC062431FD4F45B0074F6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC062451FD4F45B0074F6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		CCC062611FD51D990074F6A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CCC062631FD51DB80074F6A6 /* Librarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librarian.swift; sourceTree = "<group>"; };
+		CCC062651FD51DC70074F6A6 /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		CCC062671FD51E6C0074F6A6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		CCC062691FD51EC80074F6A6 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		CCC0626B1FD51FF60074F6A6 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CCC0626D1FD520DF0074F6A6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CCC0626F1FD522550074F6A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CCC062711FD523170074F6A6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		CCC062731FD528C70074F6A6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		CCC062791FD52F3F0074F6A6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerController.swift; sourceTree = "<group>"; };
+		CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserManagerController.xib; sourceTree = "<group>"; };
+		CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +88,39 @@
 		CCC062381FD4F45B0074F6A6 /* tkxdpm */ = {
 			isa = PBXGroup;
 			children = (
+				CCC0624B1FD4F4650074F6A6 /* model */,
 				CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */,
 				CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */,
+				CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */,
+				CCC062731FD528C70074F6A6 /* LoginPresenter.swift */,
+				CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */,
+				CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */,
+				CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */,
+				CCC062791FD52F3F0074F6A6 /* UserCell.swift */,
+				CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */,
+				CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */,
 				CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */,
 				CCC062401FD4F45B0074F6A6 /* Assets.xcassets */,
 				CCC062421FD4F45B0074F6A6 /* LaunchScreen.storyboard */,
 				CCC062451FD4F45B0074F6A6 /* Info.plist */,
 			);
 			path = tkxdpm;
+			sourceTree = "<group>";
+		};
+		CCC0624B1FD4F4650074F6A6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CCC062611FD51D990074F6A6 /* User.swift */,
+				CCC062671FD51E6C0074F6A6 /* Customer.swift */,
+				CCC062631FD51DB80074F6A6 /* Librarian.swift */,
+				CCC062651FD51DC70074F6A6 /* Admin.swift */,
+				CCC062691FD51EC80074F6A6 /* Guest.swift */,
+				CCC0626B1FD51FF60074F6A6 /* Account.swift */,
+				CCC0626D1FD520DF0074F6A6 /* Book.swift */,
+				CCC0626F1FD522550074F6A6 /* Card.swift */,
+				CCC062711FD523170074F6A6 /* AppModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC062441FD4F45B0074F6A6 /* LaunchScreen.storyboard in Resources */,
+				CCC0624F1FD4F6CA0074F6A6 /* LoginController.xib in Resources */,
+				CCC062801FD52F6C0074F6A6 /* UserManagerController.xib in Resources */,
 				CCC062411FD4F45B0074F6A6 /* Assets.xcassets in Resources */,
 				CCC0623F1FD4F45B0074F6A6 /* Main.storyboard in Resources */,
+				CCC0627C1FD52F3F0074F6A6 /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +198,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC062621FD51D990074F6A6 /* User.swift in Sources */,
+				CCC062681FD51E6C0074F6A6 /* Customer.swift in Sources */,
+				CCC062661FD51DC70074F6A6 /* Admin.swift in Sources */,
 				CCC0623C1FD4F45B0074F6A6 /* ViewController.swift in Sources */,
+				CCC0624E1FD4F6CA0074F6A6 /* LoginController.swift in Sources */,
+				CCC0626C1FD51FF60074F6A6 /* Account.swift in Sources */,
+				CCC0627B1FD52F3F0074F6A6 /* UserCell.swift in Sources */,
+				CCC062821FD531170074F6A6 /* UserManagerPresenter.swift in Sources */,
+				CCC062641FD51DB80074F6A6 /* Librarian.swift in Sources */,
+				CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */,
+				CCC062721FD523170074F6A6 /* AppModel.swift in Sources */,
+				CCC062741FD528C70074F6A6 /* LoginPresenter.swift in Sources */,
+				CCC0626A1FD51EC80074F6A6 /* Guest.swift in Sources */,
+				CCC0626E1FD520DF0074F6A6 /* Book.swift in Sources */,
 				CCC0623A1FD4F45B0074F6A6 /* AppDelegate.swift in Sources */,
+				CCC062701FD522550074F6A6 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
