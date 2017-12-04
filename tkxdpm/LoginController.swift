@@ -43,5 +43,7 @@ extension LoginController : LoginView
     }
     func loginfinish(status: Bool, user: User?) {
         print("loginfinish")
+        let userManager = UserManagerController(nibName: "UserManagerController", bundle: nil)
+        self.present(userManager, animated: true, completion: nil)
     }
 }

@@ -8,6 +8,6 @@
 
 import UIKit
 
-class Guest: User {
-var listBook = [Book]()
+class Guest: BookUser {
+
 }

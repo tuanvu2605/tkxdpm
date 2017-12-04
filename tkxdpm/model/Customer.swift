@@ -8,13 +8,12 @@
 
 import UIKit
 
-class Customer: User {
+class Customer: BookUser {
     
     var studentId = String()
     var birthDate = String()
     var className = String()
-    var card : Card!
-    var listBook = [Book]()
+
     
 
 }

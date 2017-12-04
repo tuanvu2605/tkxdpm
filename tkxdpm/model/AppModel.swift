@@ -13,6 +13,7 @@ class AppModel: NSObject {
     static let shared =  AppModel()
     var listAccount = [Account]()
     var listUser = [User]()
+    var listBookUser = [BookUser]()
     override init() {
         
         let libAccount = Account(username: "librarian", password: "lib12345")
@@ -42,6 +43,7 @@ class AppModel: NSObject {
         let guest = Guest(id: 4, role: .guest, name: "guest", username: "guest", isBlocked: false, isDeleted: false)
         guest.listBook = listBook2
         listUser = [lib,admin,customer,guest]
+        listBookUser = [customer,guest]
         
         
         

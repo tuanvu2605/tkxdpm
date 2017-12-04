@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1615401FD591EA0062F036 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E16153E1FD591EA0062F036 /* UserCell.swift */; };
+		6E1615411FD591EA0062F036 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E16153F1FD591EA0062F036 /* UserCell.xib */; };
+		6E633ECC1FD5A5DF000B2C13 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E633ECA1FD5A5DF000B2C13 /* BookCell.swift */; };
+		6E633ECD1FD5A5DF000B2C13 /* BookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */; };
+		6E633ED01FD5A72A000B2C13 /* UserBooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */; };
+		6E633ED11FD5A72A000B2C13 /* UserBooksController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */; };
+		6E633ED51FD5A893000B2C13 /* KRLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */; };
+		6E6ED13F1FD598B700867B49 /* BookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6ED13E1FD598B700867B49 /* BookUser.swift */; };
 		CCC0623A1FD4F45B0074F6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */; };
 		CCC0623C1FD4F45B0074F6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */; };
 		CCC0623F1FD4F45B0074F6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */; };
@@ -24,14 +32,22 @@
 		CCC062701FD522550074F6A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0626F1FD522550074F6A6 /* Card.swift */; };
 		CCC062721FD523170074F6A6 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062711FD523170074F6A6 /* AppModel.swift */; };
 		CCC062741FD528C70074F6A6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062731FD528C70074F6A6 /* LoginPresenter.swift */; };
-		CCC0627B1FD52F3F0074F6A6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062791FD52F3F0074F6A6 /* UserCell.swift */; };
-		CCC0627C1FD52F3F0074F6A6 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */; };
 		CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */; };
 		CCC062801FD52F6C0074F6A6 /* UserManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */; };
 		CCC062821FD531170074F6A6 /* UserManagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E16153E1FD591EA0062F036 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6E16153F1FD591EA0062F036 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		6E633ECA1FD5A5DF000B2C13 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCell.xib; sourceTree = "<group>"; };
+		6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBooksController.swift; sourceTree = "<group>"; };
+		6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserBooksController.xib; sourceTree = "<group>"; };
+		6E633ED21FD5A892000B2C13 /* tkxdpm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tkxdpm-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E633ED31FD5A893000B2C13 /* KRLCollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRLCollectionViewGridLayout.h; path = "../../KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.h"; sourceTree = "<group>"; };
+		6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRLCollectionViewGridLayout.m; path = "../../KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.m"; sourceTree = "<group>"; };
+		6E6ED13E1FD598B700867B49 /* BookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUser.swift; sourceTree = "<group>"; };
 		CCC062361FD4F45B0074F6A6 /* tkxdpm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tkxdpm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +67,6 @@
 		CCC0626F1FD522550074F6A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CCC062711FD523170074F6A6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		CCC062731FD528C70074F6A6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		CCC062791FD52F3F0074F6A6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
-		CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 		CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerController.swift; sourceTree = "<group>"; };
 		CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserManagerController.xib; sourceTree = "<group>"; };
 		CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerPresenter.swift; sourceTree = "<group>"; };
@@ -88,21 +102,28 @@
 		CCC062381FD4F45B0074F6A6 /* tkxdpm */ = {
 			isa = PBXGroup;
 			children = (
+				6E633ED31FD5A893000B2C13 /* KRLCollectionViewGridLayout.h */,
+				6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */,
 				CCC0624B1FD4F4650074F6A6 /* model */,
 				CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */,
 				CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */,
 				CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */,
+				CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */,
 				CCC062731FD528C70074F6A6 /* LoginPresenter.swift */,
 				CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */,
 				CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */,
 				CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */,
-				CCC062791FD52F3F0074F6A6 /* UserCell.swift */,
-				CCC0627A1FD52F3F0074F6A6 /* UserCell.xib */,
-				CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */,
+				6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */,
+				6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */,
+				6E16153E1FD591EA0062F036 /* UserCell.swift */,
+				6E16153F1FD591EA0062F036 /* UserCell.xib */,
+				6E633ECA1FD5A5DF000B2C13 /* BookCell.swift */,
+				6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */,
 				CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */,
 				CCC062401FD4F45B0074F6A6 /* Assets.xcassets */,
 				CCC062421FD4F45B0074F6A6 /* LaunchScreen.storyboard */,
 				CCC062451FD4F45B0074F6A6 /* Info.plist */,
+				6E633ED21FD5A892000B2C13 /* tkxdpm-Bridging-Header.h */,
 			);
 			path = tkxdpm;
 			sourceTree = "<group>";
@@ -111,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC062611FD51D990074F6A6 /* User.swift */,
+				6E6ED13E1FD598B700867B49 /* BookUser.swift */,
 				CCC062671FD51E6C0074F6A6 /* Customer.swift */,
 				CCC062631FD51DB80074F6A6 /* Librarian.swift */,
 				CCC062651FD51DC70074F6A6 /* Admin.swift */,
@@ -155,6 +177,7 @@
 				TargetAttributes = {
 					CCC062351FD4F45B0074F6A6 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -183,11 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC062441FD4F45B0074F6A6 /* LaunchScreen.storyboard in Resources */,
+				6E633ED11FD5A72A000B2C13 /* UserBooksController.xib in Resources */,
 				CCC0624F1FD4F6CA0074F6A6 /* LoginController.xib in Resources */,
+				6E1615411FD591EA0062F036 /* UserCell.xib in Resources */,
 				CCC062801FD52F6C0074F6A6 /* UserManagerController.xib in Resources */,
 				CCC062411FD4F45B0074F6A6 /* Assets.xcassets in Resources */,
+				6E633ECD1FD5A5DF000B2C13 /* BookCell.xib in Resources */,
 				CCC0623F1FD4F45B0074F6A6 /* Main.storyboard in Resources */,
-				CCC0627C1FD52F3F0074F6A6 /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,16 +223,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E633ECC1FD5A5DF000B2C13 /* BookCell.swift in Sources */,
 				CCC062621FD51D990074F6A6 /* User.swift in Sources */,
 				CCC062681FD51E6C0074F6A6 /* Customer.swift in Sources */,
 				CCC062661FD51DC70074F6A6 /* Admin.swift in Sources */,
 				CCC0623C1FD4F45B0074F6A6 /* ViewController.swift in Sources */,
 				CCC0624E1FD4F6CA0074F6A6 /* LoginController.swift in Sources */,
 				CCC0626C1FD51FF60074F6A6 /* Account.swift in Sources */,
-				CCC0627B1FD52F3F0074F6A6 /* UserCell.swift in Sources */,
 				CCC062821FD531170074F6A6 /* UserManagerPresenter.swift in Sources */,
 				CCC062641FD51DB80074F6A6 /* Librarian.swift in Sources */,
+				6E1615401FD591EA0062F036 /* UserCell.swift in Sources */,
 				CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */,
+				6E633ED01FD5A72A000B2C13 /* UserBooksController.swift in Sources */,
+				6E633ED51FD5A893000B2C13 /* KRLCollectionViewGridLayout.m in Sources */,
+				6E6ED13F1FD598B700867B49 /* BookUser.swift in Sources */,
 				CCC062721FD523170074F6A6 /* AppModel.swift in Sources */,
 				CCC062741FD528C70074F6A6 /* LoginPresenter.swift in Sources */,
 				CCC0626A1FD51EC80074F6A6 /* Guest.swift in Sources */,
@@ -350,12 +379,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XY29E79Z8X;
 				INFOPLIST_FILE = tkxdpm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.iosdevelopers.tkxdpm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tkxdpm/tkxdpm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,12 +398,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XY29E79Z8X;
 				INFOPLIST_FILE = tkxdpm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.iosdevelopers.tkxdpm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tkxdpm/tkxdpm-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
