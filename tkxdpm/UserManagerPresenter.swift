@@ -25,7 +25,7 @@ class UserManagerPresenter: NSObject {
     func getUsers()
     {
        userManagerView?.startLoading()
-        let deadlineTime = DispatchTime.now() + .seconds(3)
+        let deadlineTime = DispatchTime.now() + .seconds(1)
         DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
             self.userManagerView?.finishLoading(users: AppModel.shared.listUser)
         }

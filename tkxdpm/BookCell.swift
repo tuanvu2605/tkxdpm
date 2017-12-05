@@ -16,5 +16,10 @@ class BookCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    func display_(book : Book)
+    {
+        self.bookName.text = book.name
+    }
 
 }

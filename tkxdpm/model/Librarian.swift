@@ -10,17 +10,17 @@ import UIKit
 
 class Librarian: User {
     
-    func activeUser(u : User)
+    func activeUser(u : BookUser)
     {
         u.isBlocked = false
         
     }
-    func deleteUser (u : User)
+    func deleteUser (u : BookUser)
     {
         u.isDeleted = true
     }
     
-    func activeCard (u : Customer)
+    func activeCard (u : BookUser)
     {
         u.card.isActive = true
     }

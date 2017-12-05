@@ -18,7 +18,7 @@ class UserBooksController: UIViewController {
         super.viewDidLoad()
         layout = KRLCollectionViewGridLayout()
         layout?.numberOfItemsPerLine = 2
-        layout?.aspectRatio = 16.0/9.0
+        layout?.aspectRatio = 9.0/16.0
         layout?.sectionInset = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
         layout?.scrollDirection = .vertical
         layout?.interitemSpacing = 15
@@ -31,7 +31,11 @@ class UserBooksController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+ 
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
 }
 
@@ -45,7 +49,9 @@ extension UserBooksController : UICollectionViewDelegate , UICollectionViewDataS
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: bookCellId, for: indexPath) as! BookCell
-        cell.backgroundColor = .red
+        
+        let book = listBooks[indexPath.item]
+        cell.display_(book: book)
         return cell
     }
 }

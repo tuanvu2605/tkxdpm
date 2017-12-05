@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="SVd-FZ-K5I">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8cX-Bq-MWQ">
                         <size key="itemSize" width="50" height="50"/>
@@ -30,14 +30,31 @@
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAA-NZ-2f3">
+                    <rect key="frame" x="5" y="20" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Bs6-NB-WJF"/>
+                        <constraint firstAttribute="height" constant="30" id="Sch-ct-9RC"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="4CB-hF-E8W"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="JAA-NZ-2f3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="0ik-S0-RMt"/>
+                <constraint firstItem="JAA-NZ-2f3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="3le-pF-Ngw"/>
                 <constraint firstAttribute="trailing" secondItem="SVd-FZ-K5I" secondAttribute="trailing" id="5Ji-tO-JUg"/>
                 <constraint firstAttribute="bottom" secondItem="SVd-FZ-K5I" secondAttribute="bottom" id="Ehz-lK-rNj"/>
                 <constraint firstItem="SVd-FZ-K5I" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IKl-et-CFd"/>
-                <constraint firstItem="SVd-FZ-K5I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cRG-yI-Zz3"/>
+                <constraint firstItem="SVd-FZ-K5I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="cRG-yI-Zz3"/>
             </constraints>
+            <point key="canvasLocation" x="-160" y="15"/>
         </view>
     </objects>
+    <resources>
+        <image name="close" width="128" height="128"/>
+    </resources>
 </document>

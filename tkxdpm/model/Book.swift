@@ -22,6 +22,7 @@ class Book: NSObject {
     var kind : Kind!
     var author = String()
     var nxb = String()
+    var cover = String()
     
     init(name : String , id : Int , kind : Kind , author : String , nxb :String) {
         

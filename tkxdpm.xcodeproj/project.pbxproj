@@ -13,8 +13,8 @@
 		6E633ECD1FD5A5DF000B2C13 /* BookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */; };
 		6E633ED01FD5A72A000B2C13 /* UserBooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */; };
 		6E633ED11FD5A72A000B2C13 /* UserBooksController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */; };
-		6E633ED51FD5A893000B2C13 /* KRLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */; };
 		6E6ED13F1FD598B700867B49 /* BookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6ED13E1FD598B700867B49 /* BookUser.swift */; };
+		CC13D6321FD659580014B033 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC13D6311FD659580014B033 /* MBProgressHUD.m */; };
 		CCC0623A1FD4F45B0074F6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */; };
 		CCC0623C1FD4F45B0074F6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */; };
 		CCC0623F1FD4F45B0074F6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */; };
@@ -35,6 +35,7 @@
 		CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */; };
 		CCC062801FD52F6C0074F6A6 /* UserManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */; };
 		CCC062821FD531170074F6A6 /* UserManagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */; };
+		CCC4CE231FD64603002D3D4A /* KRLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC4CE221FD64603002D3D4A /* KRLCollectionViewGridLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +46,9 @@
 		6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBooksController.swift; sourceTree = "<group>"; };
 		6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserBooksController.xib; sourceTree = "<group>"; };
 		6E633ED21FD5A892000B2C13 /* tkxdpm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tkxdpm-Bridging-Header.h"; sourceTree = "<group>"; };
-		6E633ED31FD5A893000B2C13 /* KRLCollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRLCollectionViewGridLayout.h; path = "../../KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.h"; sourceTree = "<group>"; };
-		6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRLCollectionViewGridLayout.m; path = "../../KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.m"; sourceTree = "<group>"; };
 		6E6ED13E1FD598B700867B49 /* BookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUser.swift; sourceTree = "<group>"; };
+		CC13D6301FD659580014B033 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CC13D6311FD659580014B033 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		CCC062361FD4F45B0074F6A6 /* tkxdpm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tkxdpm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +71,8 @@
 		CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerController.swift; sourceTree = "<group>"; };
 		CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserManagerController.xib; sourceTree = "<group>"; };
 		CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerPresenter.swift; sourceTree = "<group>"; };
+		CCC4CE211FD64603002D3D4A /* KRLCollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRLCollectionViewGridLayout.h; path = "../../../iOS and Another/KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.h"; sourceTree = "<group>"; };
+		CCC4CE221FD64603002D3D4A /* KRLCollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRLCollectionViewGridLayout.m; path = "../../../iOS and Another/KRLCollectionViewGridLayout-master/Classes/KRLCollectionViewGridLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +105,10 @@
 		CCC062381FD4F45B0074F6A6 /* tkxdpm */ = {
 			isa = PBXGroup;
 			children = (
-				6E633ED31FD5A893000B2C13 /* KRLCollectionViewGridLayout.h */,
-				6E633ED41FD5A893000B2C13 /* KRLCollectionViewGridLayout.m */,
+				CC13D6301FD659580014B033 /* MBProgressHUD.h */,
+				CC13D6311FD659580014B033 /* MBProgressHUD.m */,
+				CCC4CE211FD64603002D3D4A /* KRLCollectionViewGridLayout.h */,
+				CCC4CE221FD64603002D3D4A /* KRLCollectionViewGridLayout.m */,
 				CCC0624B1FD4F4650074F6A6 /* model */,
 				CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */,
 				CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */,
@@ -235,7 +240,8 @@
 				6E1615401FD591EA0062F036 /* UserCell.swift in Sources */,
 				CCC0627F1FD52F6C0074F6A6 /* UserManagerController.swift in Sources */,
 				6E633ED01FD5A72A000B2C13 /* UserBooksController.swift in Sources */,
-				6E633ED51FD5A893000B2C13 /* KRLCollectionViewGridLayout.m in Sources */,
+				CCC4CE231FD64603002D3D4A /* KRLCollectionViewGridLayout.m in Sources */,
+				CC13D6321FD659580014B033 /* MBProgressHUD.m in Sources */,
 				6E6ED13F1FD598B700867B49 /* BookUser.swift in Sources */,
 				CCC062721FD523170074F6A6 /* AppModel.swift in Sources */,
 				CCC062741FD528C70074F6A6 /* LoginPresenter.swift in Sources */,
