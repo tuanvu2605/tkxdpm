@@ -86,6 +86,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC13D6331FD66D980014B033 /* View - ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */,
+				CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */,
+				CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */,
+				CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */,
+				6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */,
+				6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */,
+				6E16153F1FD591EA0062F036 /* UserCell.xib */,
+				6E633ECA1FD5A5DF000B2C13 /* BookCell.swift */,
+				6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */,
+				6E16153E1FD591EA0062F036 /* UserCell.swift */,
+			);
+			path = "View - ViewController";
+			sourceTree = "<group>";
+		};
+		CC13D6361FD66DD80014B033 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CCC062731FD528C70074F6A6 /* LoginPresenter.swift */,
+				CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		CCC0622D1FD4F45B0074F6A6 = {
 			isa = PBXGroup;
 			children = (
@@ -112,18 +138,8 @@
 				CCC0624B1FD4F4650074F6A6 /* model */,
 				CCC062391FD4F45B0074F6A6 /* AppDelegate.swift */,
 				CCC0623B1FD4F45B0074F6A6 /* ViewController.swift */,
-				CCC0624C1FD4F6CA0074F6A6 /* LoginController.swift */,
-				CCC0624D1FD4F6CA0074F6A6 /* LoginController.xib */,
-				CCC062731FD528C70074F6A6 /* LoginPresenter.swift */,
-				CCC0627D1FD52F6C0074F6A6 /* UserManagerController.swift */,
-				CCC0627E1FD52F6C0074F6A6 /* UserManagerController.xib */,
-				CCC062811FD531170074F6A6 /* UserManagerPresenter.swift */,
-				6E633ECE1FD5A72A000B2C13 /* UserBooksController.swift */,
-				6E633ECF1FD5A72A000B2C13 /* UserBooksController.xib */,
-				6E16153E1FD591EA0062F036 /* UserCell.swift */,
-				6E16153F1FD591EA0062F036 /* UserCell.xib */,
-				6E633ECA1FD5A5DF000B2C13 /* BookCell.swift */,
-				6E633ECB1FD5A5DF000B2C13 /* BookCell.xib */,
+				CC13D6361FD66DD80014B033 /* Presenter */,
+				CC13D6331FD66D980014B033 /* View - ViewController */,
 				CCC0623D1FD4F45B0074F6A6 /* Main.storyboard */,
 				CCC062401FD4F45B0074F6A6 /* Assets.xcassets */,
 				CCC062421FD4F45B0074F6A6 /* LaunchScreen.storyboard */,
